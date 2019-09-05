@@ -1,0 +1,195 @@
+.blog_sblog {
+  display: grid;
+  grid-template-columns: 90vw;
+  grid-column-gap: 10vw;
+  padding: 50px 5vw; }
+
+.grid_left_sblog .article_sblog .title_sblog img {
+  width: 100%; }
+.grid_left_sblog .article_sblog .title_sblog .footer_ar_blog {
+  color: #aaaaaa; }
+  .grid_left_sblog .article_sblog .title_sblog .footer_ar_blog .footer_ar {
+    display: inline;
+    padding-right: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    border-right: 1px solid #aaaaaa; }
+  .grid_left_sblog .article_sblog .title_sblog .footer_ar_blog .opacity_gray {
+    display: inline; }
+.grid_left_sblog .article_sblog p {
+  font-weight: 100;
+  color: #555555; }
+.grid_left_sblog .article_sblog .quote-wrapper {
+  border: 10px solid #f0e9ff; }
+  .grid_left_sblog .article_sblog .quote-wrapper .quotes {
+    padding: 10px;
+    border-left: 2px solid #aaaaaa;
+    margin: 0px; }
+.grid_left_sblog .article_sblog .bottom_sblog .like_sblog {
+  font-weight: 100;
+  color: #aaaaaa;
+  margin-bottom: 50px; }
+.grid_left_sblog .article_sblog .btn_changes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+  .grid_left_sblog .article_sblog .btn_changes .btn_pre {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .grid_left_sblog .article_sblog .btn_changes .btn_pre .img_pre img {
+      margin: 5px;
+      position: relative; }
+    .grid_left_sblog .article_sblog .btn_changes .btn_pre .img_pre a {
+      font-size: 30px;
+      transform: translate(130%, -130%);
+      position: absolute; }
+    .grid_left_sblog .article_sblog .btn_changes .btn_pre .content_btn * {
+      margin: 0px; }
+  .grid_left_sblog .article_sblog .btn_changes .btn_next {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right; }
+    .grid_left_sblog .article_sblog .btn_changes .btn_next .img_next img {
+      margin: 5px;
+      position: relative; }
+    .grid_left_sblog .article_sblog .btn_changes .btn_next .img_next a {
+      font-size: 30px;
+      transform: translate(-200%, -130%);
+      position: absolute; }
+    .grid_left_sblog .article_sblog .btn_changes .btn_next .content_btn * {
+      margin: 0px; }
+.grid_left_sblog .art_sblog {
+  border-bottom: 1px solid #f0e9ff; }
+.grid_left_sblog .blog-author {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 10px;
+  width: 100%;
+  background-color: #fffffa; }
+  .grid_left_sblog .blog-author img {
+    margin: 10px; }
+.grid_left_sblog .cmt_sblog .number_cmt {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 20px; }
+.grid_left_sblog .cmt_sblog .articile_cmt {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: #aaaaaa;
+  line-height: 1.5rem;
+  font-weight: 100;
+  margin-top: 20px; }
+  .grid_left_sblog .cmt_sblog .articile_cmt img {
+    height: 80%;
+    margin-right: 10px; }
+  .grid_left_sblog .cmt_sblog .articile_cmt * {
+    margin: 0; }
+  .grid_left_sblog .cmt_sblog .articile_cmt .footer_art_cmt {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    position: relative; }
+    .grid_left_sblog .cmt_sblog .articile_cmt .footer_art_cmt a {
+      font-weight: bold;
+      color: #aaaaaa; }
+    .grid_left_sblog .cmt_sblog .articile_cmt .footer_art_cmt p {
+      margin-left: 10px;
+      font-size: 14px; }
+    .grid_left_sblog .cmt_sblog .articile_cmt .footer_art_cmt .btn_reply {
+      position: absolute;
+      text-transform: uppercase;
+      right: 0px; }
+.grid_left_sblog .leave_reply {
+  padding-bottom: 20px; }
+  .grid_left_sblog .leave_reply textarea {
+    width: 88%; }
+  .grid_left_sblog .leave_reply .input_c {
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    padding: 1%;
+    display: inline-block;
+    margin: 15px 0px; }
+  .grid_left_sblog .leave_reply .input_c1 {
+    width: 40%;
+    margin-right: 5%; }
+  .grid_left_sblog .leave_reply .input_c2 {
+    width: 40%; }
+  .grid_left_sblog .leave_reply .input_c3 {
+    width: 88%; }
+  .grid_left_sblog .leave_reply a {
+    display: block;
+    background-color: #00d089;
+    padding: 10px 20px;
+    color: #ffffffff;
+    text-transform: uppercase;
+    width: 120px; }
+
+.grid_l .grid_search {
+  padding: 5% 10%;
+  text-align: center; }
+  .grid_l .grid_search .input_search {
+    position: relative; }
+    .grid_l .grid_search .input_search input {
+      display: block;
+      width: 97%;
+      padding: 1%; }
+    .grid_l .grid_search .input_search i {
+      position: absolute;
+      top: 25%;
+      right: 1%; }
+.grid_l .category {
+  padding: 10px 10%; }
+  .grid_l .category .list_cat {
+    padding: 10px 0; }
+    .grid_l .category .list_cat .cat_item {
+      border-bottom: 0.5px solid #f0e9ff; }
+      .grid_l .category .list_cat .cat_item a {
+        display: inline-block;
+        color: #aaaaaa; }
+      .grid_l .category .list_cat .cat_item p {
+        display: inline-block;
+        color: #aaaaaa; }
+.grid_l .recent_post .ar_recent {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+  align-items: center; }
+  .grid_l .recent_post .ar_recent a {
+    color: black; }
+    .grid_l .recent_post .ar_recent a h3 {
+      margin: 5px 0; }
+  .grid_l .recent_post .ar_recent p {
+    margin: 5px 0; }
+.grid_l .tag_cloud .list_tag {
+  padding-left: 0px; }
+  .grid_l .tag_cloud .list_tag .tag_item {
+    padding: 3px 8px;
+    display: inline-block;
+    background-color: #ffffff;
+    font-size: 14px;
+    margin: 1px; }
+    .grid_l .tag_cloud .list_tag .tag_item a {
+      color: #aaaaaa; }
+.grid_l .instagram_feeds .content_instagram {
+  display: grid;
+  grid-template-columns: 30% 30% 30%; }
+.grid_l .newletter .input_search {
+  text-align: center; }
+  .grid_l .newletter .input_search input {
+    display: block;
+    width: 97%;
+    padding: 1%; }
+
+@media only screen and (min-width: 1000px) {
+  .blog_sblog {
+    grid-template-columns: 50vw 30vw; } }
+
+/*# sourceMappingURL=style_sblog.css.map */
