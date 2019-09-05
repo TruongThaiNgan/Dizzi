@@ -1,0 +1,45 @@
+.project_home{
+    text-align: center;
+    .nav_project{
+        display: block;  
+        margin: 0px;
+    }
+    h5{
+        text-align: left;
+    }
+    .img_project{
+        display: grid;
+        width: 90vw !important;
+        grid-column-gap: 6vw !important;
+        grid-row-gap: 6vw !important;
+        .img_main{
+            &:hover .content_img_main{
+                display: block;
+                transition: display 1s;
+            }
+            position: relative;
+            img{
+                display: block;
+                width: 100% !important;
+                height: 100%;
+            }
+            .content_img_main{
+                display: none;
+                position: absolute;
+                background-color: white;
+                bottom: 0px;
+                width: 80%;
+                margin: 0 10%;
+            }
+        }
+    }
+}
+.display_none{
+    display: none !important;
+}
+
+@media only screen and (max-width:860px){
+    .img_project{
+        grid-template-columns: 90vw !important;
+    }
+}

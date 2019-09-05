@@ -1,0 +1,129 @@
+.grid_2 {
+  margin: 50px 10vw;
+  width: 80vw; }
+  .grid_2 .f_center .article_blog {
+    position: relative;
+    width: 100%;
+    box-shadow: 0 10px 20px 0 rgba(221, 221, 221, 0.3);
+    margin-bottom: 50px; }
+    .grid_2 .f_center .article_blog .blog_item_date {
+      display: block;
+      padding: 1rem;
+      background-color: #00d089;
+      font-size: 18px;
+      color: white;
+      width: 3rem;
+      text-align: center;
+      position: absolute;
+      transform: translate(50%, -50%);
+      border-radius: 5px; }
+      .grid_2 .f_center .article_blog .blog_item_date span {
+        display: block;
+        font-size: 30px; }
+    .grid_2 .f_center .article_blog img {
+      width: 100%; }
+    .grid_2 .f_center .article_blog h1 {
+      padding: 20px 20px 10px 20px;
+      font-size: 2rem;
+      margin-bottom: 0px; }
+    .grid_2 .f_center .article_blog p {
+      padding: 0 20px;
+      font-weight: 100;
+      color: #aaaaaa; }
+    .grid_2 .f_center .article_blog .footer_ar_blog {
+      padding: 0 20px;
+      display: flex;
+      flex-direction: row; }
+      .grid_2 .f_center .article_blog .footer_ar_blog .footer_ar {
+        padding-right: 5px;
+        border-right: 1px solid black;
+        margin-right: 5px;
+        font-weight: 500;
+        color: #aaaaaa; }
+  .grid_2 .f_center .btn_change {
+    text-align: center; }
+  .grid_2 .grid_l .grid_search {
+    padding: 5% 10%;
+    text-align: center; }
+    .grid_2 .grid_l .grid_search .input_search {
+      position: relative; }
+      .grid_2 .grid_l .grid_search .input_search input {
+        display: block;
+        width: 97%;
+        padding: 1%; }
+      .grid_2 .grid_l .grid_search .input_search i {
+        position: absolute;
+        top: 25%;
+        right: 1%; }
+  .grid_2 .grid_l .category {
+    padding: 10px 10%; }
+    .grid_2 .grid_l .category .list_cat {
+      padding: 10px 0; }
+      .grid_2 .grid_l .category .list_cat .cat_item {
+        border-bottom: 0.5px solid #f0e9ff; }
+        .grid_2 .grid_l .category .list_cat .cat_item a {
+          display: inline-block;
+          color: #aaaaaa; }
+        .grid_2 .grid_l .category .list_cat .cat_item p {
+          display: inline-block;
+          color: #aaaaaa; }
+  .grid_2 .grid_l .recent_post .ar_recent {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    align-items: center; }
+    .grid_2 .grid_l .recent_post .ar_recent a {
+      color: black; }
+      .grid_2 .grid_l .recent_post .ar_recent a h3 {
+        margin: 5px 0; }
+    .grid_2 .grid_l .recent_post .ar_recent p {
+      margin: 5px 0; }
+  .grid_2 .grid_l .tag_cloud .list_tag {
+    padding-left: 0px; }
+    .grid_2 .grid_l .tag_cloud .list_tag .tag_item {
+      padding: 3px 8px;
+      display: inline-block;
+      background-color: #ffffff;
+      font-size: 14px;
+      margin: 1px; }
+      .grid_2 .grid_l .tag_cloud .list_tag .tag_item a {
+        color: #aaaaaa; }
+  .grid_2 .grid_l .instagram_feeds .content_instagram {
+    display: grid;
+    grid-template-columns: 30% 30% 30%; }
+  .grid_2 .grid_l .newletter .input_search {
+    text-align: center; }
+    .grid_2 .grid_l .newletter .input_search input {
+      display: block;
+      width: 97%;
+      padding: 1%; }
+
+.btn_search {
+  border: 1px solid #00d089;
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #00d089;
+  color: white; }
+
+.bg_gray {
+  background-color: #dddddd;
+  margin: 50px 0;
+  padding: 5% 10%; }
+
+.header_grid_l {
+  border-bottom: 0.5px solid #f0e9ff; }
+
+.btn_V {
+  text-align: center;
+  padding: 5px 8px;
+  border: 1px solid #000;
+  background-color: white; }
+
+@media only screen and (min-width: 1000px) {
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-column-gap: 10%; } }
+
+/*# sourceMappingURL=style_blog.css.map */
